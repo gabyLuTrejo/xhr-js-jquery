@@ -1,11 +1,9 @@
 var express = require('express');
 var app = express();
-app.get("/", function(req, res){
-   res.send("¡Hola!"); 
-});
 
-app.get("/gaby", function(req, res){
-   res.send("¡Hola Gaby!"); 
-});
+app.use(express.static(__dirname + '/public'));
+//console.log(__dirname);
 
-app.listen(3000);
+app.listen(3000, function(){
+    console.log("Servidor escuchado en http://localhost:3000")
+});
