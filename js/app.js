@@ -12,20 +12,6 @@ xhr.onreadystatechange = function(e){
 xhr.open("GET", "data/squad.json");
 xhr.send();
 
-
-//Js 
-/*var squads = [
-    {
-        "nombre": "Chilakilers",
-        "integrantes": 7
-    },
-    
-    {
-        "nombre": "teDigoLuego",
-        "integrantes": 8
-    }
-];
-*/
 function crearSquads(squads){
     var ul = document.getElementById("squads");
     squads.forEach(function(squad){

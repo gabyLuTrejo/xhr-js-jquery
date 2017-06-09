@@ -1,0 +1,27 @@
+{
+  "name": "xhr-js",
+  "version": "1.0.0",
+  "description": "Probando XMLHttpRequest con JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyLuTrejo/xhr-js-jquery.git"
+  },
+  "keywords": [
+    "js",
+    "xhr",
+    "json"
+  ],
+  "author": "Luisa Gabriela Trejo Rosales <gabytrejo303@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabyLuTrejo/xhr-js-jquery/issues"
+  },
+  "homepage": "https://github.com/gabyLuTrejo/xhr-js-jquery#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
